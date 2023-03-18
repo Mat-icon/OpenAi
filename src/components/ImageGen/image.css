@@ -1,0 +1,56 @@
+.app-header{
+    width: 650px;
+    height: 600px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0px 30px;
+    border-radius: 40px;
+  
+  }
+
+  .app-header > h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 200;
+    padding: 7px 15px;
+  }
+  button{
+    padding: 12px 30px;
+    margin-left: 12px;
+    border: none;
+    outline: none;
+    background:  rgb(255, 25, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  button:focus{
+   background: rgba(255, 0, 0, 0.521);
+  }
+
+  .image{
+    width:640px;
+    margin-top: 20px;
+    height: 380px;
+  }
+   
+   
+   input{
+     width: 95%;
+     height: 30px;
+     padding: 7px 20px;
+     border: none;
+     border-radius: 10px;
+     outline: none;
+     background: rgb(194, 187, 187);
+     color: rgb(44, 39, 39);
+     font-size: 15px;
+   }
+
+   .input-flex{
+    display: flex;
+    flex-direction: row;
+   }

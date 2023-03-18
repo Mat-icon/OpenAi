@@ -1,0 +1,38 @@
+textarea{
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 300;
+    border: 1px solid rgba(87, 85, 85, 0.397);
+}
+textarea:focus{
+    border: 1px solid rgb(80, 79, 79);
+    outline: none;
+}
+.text-area{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 37%;
+    left: 54%;
+    transform: translate(-50%,-50%);
+   
+}
+
+.textarea-btn{
+   background: blue;
+   width: 180px;
+   height: 50px;
+   margin: auto;
+   font-family: Poppins;
+   margin-top: 12px;
+}
+.textarea-btn:focus{
+    background: rgba(0, 0, 255, 0.295);
+}
+
+.nav{
+    width: 20%;
+    background: rgb(182, 181, 181);
+    height: 649px;
+}
